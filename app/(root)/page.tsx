@@ -19,8 +19,19 @@ const HomePage = () => {
     //     />
     //   </div>
     // </div>
-    <div className="w-[500px] mx-20 mt-2 h-[89vh]">
-      <Carousel carouselSlides={carouselSlides} />
+    <div className="mx-20 mt-2 h-[65vh]">
+      <Carousel>
+        {carouselSlides.map((slide, i) => {
+          return (
+            <Image
+              src={slide}
+              alt={`Store banner image ${i + 1}`}
+              width={500}
+              className="object-cover rounded-2xl hover:scale-105 transition-transform duration-1000"
+            />
+          );
+        })}
+      </Carousel>
     </div>
   );
 };

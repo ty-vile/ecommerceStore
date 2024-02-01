@@ -1,31 +1,12 @@
 "use client";
-
 type Props = {
-  carouselSlides: StaticImageData[];
+  children: React.ReactNode;
 };
-
-// next
-import Image, { StaticImageData } from "next/image";
-import { useState } from "react";
-// components
-import CarouselWrapper from "@/components/carousel/carousel-wrapper";
-
-const Carousel = ({ carouselSlides }: Props) => {
-  const;
-
+const Carousel = ({ children }: Props) => {
   return (
-    <CarouselWrapper>
-      {carouselSlides.map((slide, i) => {
-        return (
-          <Image
-            src={slide}
-            alt={`Store banner image ${i + 1}`}
-            width={500}
-            className="object-cover rounded-2xl hover:scale-105 transition-transform duration-1000"
-          />
-        );
-      })}
-    </CarouselWrapper>
+    <div className="overflow-hidden">
+      <div className="flex">{children}</div>
+    </div>
   );
 };
 
