@@ -16,13 +16,13 @@ const Marquee = ({ data }: Props) => {
           : "mt-4 overflow-x-hidden whitespace-nowrap"
       }
     >
-      <div className="animate-marquee inline-block">
+      <div className="animate-marquee inline-block font-lato">
         {data?.content?.map((node, i) => {
           return node;
         })}
       </div>
 
-      <div className="animate-marquee inline-block">
+      <div className="animate-marquee inline-block  font-lato">
         {data?.content?.map((node, i) => {
           return node;
         })}

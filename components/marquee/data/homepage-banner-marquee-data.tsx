@@ -25,5 +25,85 @@ export const homepageBannerMarqueeData = {
       <span>SHOP THE LATEST FROM THE NFL</span>
       <Image src={nflLogo} width={40} alt="Logo" />
     </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
+    <div className="mx-4 inline-flex items-center gap-4">
+      <span>SHOP THE LATEST FROM THE NFL</span>
+      <Image src={nflLogo} width={40} alt="Logo" />
+    </div>,
   ],
 };
