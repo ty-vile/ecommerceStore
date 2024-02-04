@@ -15,7 +15,7 @@ const MainNav = ({ data }: Props) => {
   const pathname = usePathname();
 
   const routes = data.map((route, i) => ({
-    href: `/category/${route.id}`,
+    href: `/category/${route.name.toLocaleLowerCase()}`,
     label: route.name,
     active: pathname === `/category/${route.id}`,
   }));

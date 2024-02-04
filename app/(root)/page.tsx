@@ -1,32 +1,35 @@
 import Image from "next/image";
+// images
 import storeBannerOne from "@/public/storeBannerOne.jpg";
 import storeBannerTwo from "@/public/storeBannerTwo.jpg";
 import storeBannerThree from "@/public/storeBannerThree.jpg";
-
+// components
 import Carousel from "@/components/carousel/carousel";
 import Marquee from "@/components/marquee/marquee";
+// data
 import { homepageBannerMarqueeData } from "@/components/marquee/data/homepage-banner-marquee-data";
-import { navbarMarqueeData } from "@/components/marquee/data/navbar-marquee-data";
+import getAllProducts from "@/actions/products/getAllProducts";
 
 const carouselSlides = [
   {
     img: storeBannerOne,
-    text: "TEST",
   },
   {
     img: storeBannerTwo,
-    text: "TEST2",
   },
   {
     img: storeBannerThree,
-    text: "TEST3",
   },
 ];
 
-const HomePage = () => {
+const HomePage = async () => {
+  const products = await getAllProducts();
+
+  console.log(products);
+
   return (
-    <div className="flex flex-col">
-      <div className="mx-4 mt-2 h-fit max-h-[800px] rounded-2xl overflow-hidden relative">
+    <div className="flex flex-col items-center justify-center overflow-x-hidden">
+      <div className="mx-4 mt-2 max-w-[2000px] max-h-[1000px] rounded-2xl  overflow-hidden relative">
         <Carousel autoSlide={true} autoSlideInterval={10000}>
           {carouselSlides.map((slide, i) => {
             return (
