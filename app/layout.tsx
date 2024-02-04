@@ -1,6 +1,7 @@
 // next
 import type { Metadata } from "next";
 import "./globals.css";
+import { lato } from "@/fonts/fonts";
 // components
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navbar/navbar";
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${lato.variable}`}>
         <Navbar />
         {children}
         <Footer />

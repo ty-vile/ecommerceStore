@@ -7,6 +7,9 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      lato: ["var(--font-lato)"],
+    },
     extend: {
       animation: {
         marquee: "marquee 35s linear infinite",
