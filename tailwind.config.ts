@@ -17,6 +17,9 @@ const config: Config = {
           "100%": { transform: "translateX(0%)" },
         },
       },
+      transitionDuration: {
+        "2000": "2000ms",
+      },
     },
   },
   plugins: [],

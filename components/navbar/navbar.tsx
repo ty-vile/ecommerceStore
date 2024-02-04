@@ -7,13 +7,13 @@ import fakeLogo from "@/public/fakeLogo.svg";
 import MainNav from "@/components/navbar/main-nav";
 import Marquee from "@/components/marquee/marquee";
 // data
-import { navbarMarqueeData } from "@/components/navbar/data/navbar-marquee-data";
+import { navbarMarqueeData } from "@/components/marquee/data/navbar-marquee-data";
 
 const Navbar = () => {
   return (
     <>
       <header className="border-b py-4 mx-auto">
-        <div className=" px-24">
+        <div className="px-24">
           <Link href="/">
             <Image src={fakeLogo} height={70} width={100} alt="Fake logo" />
           </Link>
